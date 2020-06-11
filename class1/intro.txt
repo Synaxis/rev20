@@ -1,0 +1,19 @@
+hello world
+
+#include <stdio.h>
+
+int main(void)
+ {
+     printf("Hello World!\n");
+     return 0;
+ }
+
+ \n means new line
+
+ C Basics: variable names
+
+ - Must begin with a letter or an underscore
+ - cannot start with a digit
+
+ - can be follow by any combo of letters digits or underscore
+ - cannot contain reserved words ( example: "function", "do" )
