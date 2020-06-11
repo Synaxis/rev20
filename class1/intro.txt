@@ -17,3 +17,31 @@ int main(void)
 
  - can be follow by any combo of letters digits or underscore
  - cannot contain reserved words ( example: "function", "do" )
+
+ C: intrinsic data types 
+ - char (character)
+ - typically 1 byte
+ - 'a', 'b', 'c', '2'
+
+ - int (integer)
+
+ - typically 4 bytes
+ - 16 (decimal), 020 (octal), 0x10 (hex)
+
+ float ( floating point)
+
+ - typically 4 bytes
+
+ -0.00225, 2.25e-3
+
+ - double ( extended precision float)
+- typically 8 bytes
+- unless told otherwise ( e.g 3.14f) floating point literals are assumed to be double
+
+
+c: Modifiers
+    - log, long long , short, unsigned and signed
+    - long, long long extended on some systems
+    - can be used with int, double
+    - short - takes half spaces on some systems
+    - signed/usnigned ( int or char)
